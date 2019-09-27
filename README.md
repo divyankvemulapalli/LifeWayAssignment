@@ -8,18 +8,18 @@ Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-Prerequisites
+Prerequisites:
 Python 2.7 or above
 
-Installing packages using pip
+Installing packages using pip:
 pip install Flask
 pip install Flask-RESTful
 
-Deployment 
+Deployment:
 python /main.py
 
-Postman
-URL: http://127.0.0.1:5000/message
+Postman:
+URL: http://127.0.0.1:5000/message, 
 JSON(raw) : 
 {
   "id" : "123",
