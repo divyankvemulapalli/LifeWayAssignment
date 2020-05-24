@@ -1,6 +1,4 @@
-# LifeWayAssignment
-
-REST API using Python and Flask
+# REST API using Python and Flask
 
 REST service with a single endpoint that accepts a json message with two fields.."id" and "message". (example: { "id": "123", "message": "hello world" }). The endpoint will return a json with a single field "count" that contains the total number of words contained in all the messages received to that point. For example, if the first message contains 3 words it would responsd with count = 3. If the next message contains 5 words it would respond with count = 8. The service will ignore messages with duplicate ids. (i.e. ids that have already been processed)
 
